@@ -83,7 +83,7 @@ def extract_and_resize_images(docx_path, output_folder="extracted_images", targe
 # Example usage with aspect ratio preservation (default):
 #Find sweet spot for size, recommended to find size of orginal images within document first and use those dimensions, will convert all pictures to size
 #Insert borders where necessary to maintain aspect ratio
-docx_file = "target2.docx"
+docx_file = "crisp.docx"
 images = extract_and_resize_images(docx_file, output_folder="extracted_images2", target_size=(700, 400), maintain_aspect=True)
 
 # Alternative: if you want the old stretching behavior:
