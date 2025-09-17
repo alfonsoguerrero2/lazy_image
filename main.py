@@ -10,7 +10,7 @@ from docx import Document
 from tkinter import Tk, Button, Label, filedialog, messagebox
 import tkinter as tk
 
-
+print("Lazy Image Extractor Initialized")
 
 
 # --- New App Structure ---
